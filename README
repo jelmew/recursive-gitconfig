@@ -61,7 +61,7 @@ Configure:
             ```
 
     Now all git repositories under ~/Work/ will use ~/Work/.gitconfig and repos under ~/Personal/ use ~/Personal/.gitconfig without
-    any commands or commands to type.
+    any commands to type or files to update.
 
     Note include.path will load the given config file and override it by next sections. Order is important.
 
