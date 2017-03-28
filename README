@@ -26,8 +26,14 @@ Install:
 
     . Get script file: https://raw.githubusercontent.com/arount/recursive-gitconfig/master/recursive-gitconfig
     . Copy file somewhere (typically in `~/.recursive-gitconfig`).
-    . Add it to your .bashrc (or other depending you shell): `echo "source ~/.recursive-gitconfig" >> ~/.bashrc`
+    . Add it to your .bashrc (or other depending you shell): `echo "source ~/.recursive-gitconfig" >> ~/.bashrc`. You may needs to add it at top of file to avoid conflicts.
     . Source it for the first run: `source ~/.recursive-gitconfig`.
+
+
+Errors:
+-------
+
+    You may have troubles to use recursive-gitconfig if your `source ~/.recursive-gitconfig` instruction is in bottom of `.bashrc`. Moving this line at the top of file should fix it.
 
 
 Configure:
